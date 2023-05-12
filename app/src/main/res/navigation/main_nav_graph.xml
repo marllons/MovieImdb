@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment"
+    android:id="@+id/main_nav_graph">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.marllons.movieimdb.presenter.ui.fragment.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_mainFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/slide_right_offscreen_to_screen"
+            app:exitAnim="@anim/slide_screen_to_left_offscreen"
+            app:popEnterAnim="@anim/slide_from_left_offscreen_to_screen"
+            app:popExitAnim="@anim/slide_screen_to_right_offscreen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.marllons.movieimdb.presenter.ui.fragment.DetailsFragment"
+        android:label="Details Fragment"
+        tools:layout="@layout/fragment_details">
+
+        <argument
+            android:name="subject"
+            app:argType="string"
+            app:nullable="true"/>
+
+    </fragment>
+
+</navigation>

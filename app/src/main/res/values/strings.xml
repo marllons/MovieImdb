@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieImdb</string>
+    <string name="search_movie">Search movie</string>
+    <string name="search_for_movies_and_have_fun">Search for movies and have fun!</string>
+    <string name="error_when_read_data">Error when read data!</string>
+    <string name="try_again">Try again</string>
+    <string name="ano">Year:</string>
+    <string name="lan_amento">Release:</string>
+    <string name="dura_o">Runtime:</string>
+    <string name="g_nero">Gender:</string>
+    <string name="diretor">Director:</string>
+    <string name="escritor">Writer:</string>
+    <string name="elenco">Actor:</string>
+    <string name="plot">Plot:</string>
+    <string name="l_ngua">Language:</string>
+    <string name="pa_s">Country:</string>
+    <string name="id_imdb">Id IMDB:</string>
+    <string name="image_view_content_description">image view content description</string>
+</resources>
