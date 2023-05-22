@@ -26,7 +26,14 @@ Abra o app e pesquise por algum filme. Ao achar, clique no filme e veja seus det
 
 ## Imagens
 
-Default theme <br>
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/30272949/238058249-8e44e180-4e8d-4a9e-94e4-6806a504c98c.png" width="250">
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/30272949/238058399-1de7bc56-62b0-4ce6-b2af-f3af56c7a4d0.png" width="250">
-<img src="https://user-images.githubusercontent.com/30272949/238058475-1db2efc1-6a80-480c-900d-3caac4a556cb.png" width="250">
+Light mode <br>
+<img src="https://user-images.githubusercontent.com/30272949/239996225-8a606338-5482-430f-b919-5c96856c13c7.png" width="250">
+<img src="https://user-images.githubusercontent.com/30272949/239995626-f430386e-5b26-4e74-895d-a77bb17bea4e.png" width="250">
+<img src="https://user-images.githubusercontent.com/30272949/239995738-59de7470-89de-4254-9e04-8e022f58f016.png" width="250">
+
+Dark mode<br>
+<img src="https://user-images.githubusercontent.com/30272949/239996100-8be6f3e4-4565-4dc1-9e07-5e9470a16bdc.png" width="250">
+<img src="https://user-images.githubusercontent.com/30272949/239995936-425ddcb1-515f-434b-a3ec-b857bc068105.png" width="250">
+<img src="https://user-images.githubusercontent.com/30272949/239996004-15d38173-03b6-47cd-88f7-1eb030eaf3f6.png" width="250">
+
+
