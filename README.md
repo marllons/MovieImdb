@@ -22,7 +22,7 @@ O aplicativo foi desenvolvido utilizando a linguagem Kotlin e toda as comuniçõ
 
 ## Como utilizar
 Insira sua API KEY no arquivo Constants.kt, execute o app e pesquise um filme. Ao achar, veja os detalhes do mesmo e se divirta!
-Abra o app e pesquise por algum usuário. Ao achar, clique no usuário e veja seus detalhes, bem como seus repositórios.
+Abra o app e pesquise por algum filme. Ao achar, clique no filme e veja seus detalhes.
 
 ## Imagens
 
