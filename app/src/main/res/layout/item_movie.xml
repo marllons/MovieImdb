@@ -9,10 +9,9 @@
         android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_xs"
-        android:layout_marginStart="@dimen/margin_xs"
-        android:layout_marginTop="@dimen/margin_xs"
-        android:layout_marginEnd="@dimen/margin_xs"
+        app:cardElevation="@dimen/margin_xxxs"
+        android:layout_marginVertical="@dimen/margin_xxxs"
+        android:layout_marginHorizontal="@dimen/margin_xs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:contentDescription="@string/image_view_content_description"
-                android:scaleType="centerInside"
+                android:scaleType="fitCenter"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -50,7 +49,7 @@
                     android:lines="2"
                     android:maxLines="2"
                     android:minLines="2"
-                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                     tools:text="string/title" />
 
                 <TextView
@@ -58,7 +57,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_xs"
-                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
                     android:textColor="?android:attr/textColorSecondary"
                     tools:text="string/secondary_text" />
 
@@ -67,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_sm"
-                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
                     android:textColor="?android:attr/textColorSecondary"
                     tools:text="string/supporting_text" />
 
