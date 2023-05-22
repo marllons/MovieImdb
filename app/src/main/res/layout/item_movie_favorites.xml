@@ -2,12 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/margin_xs"
         android:layout_marginVertical="@dimen/margin_xxxs"
@@ -23,11 +23,10 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
                 android:contentDescription="@string/image_view_content_description"
                 android:scaleType="fitCenter"
-                android:layout_marginTop="@dimen/margin_xs"
                 android:adjustViewBounds="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -38,9 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="@dimen/margin_xxs"
-                android:paddingVertical="@dimen/margin_xxs"
-                android:paddingHorizontal="@dimen/margin_sm"
+                android:padding="@dimen/margin_xs"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -50,8 +47,7 @@
                     android:id="@+id/year"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/margin_xs"
-                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
                     android:textColor="?android:attr/textColorSecondary"
                     tools:text="string/secondary_text" />
 
@@ -62,7 +58,7 @@
                     android:lines="2"
                     android:maxLines="2"
                     android:minLines="2"
-                    android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                    android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
                     tools:text="string/title" />
 
                 <TextView
@@ -70,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_xxxs"
-                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
                     android:textColor="?android:attr/textColorSecondary"
                     tools:text="string/supporting_text" />
 

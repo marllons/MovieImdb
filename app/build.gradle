@@ -93,6 +93,10 @@ dependencies {
     //lootie
     implementation 'com.airbnb.android:lottie:6.0.0'
 
+    //room
+    implementation 'androidx.room:room-runtime:2.5.1'
+    annotationProcessor 'androidx.room:room-compiler:2.5.1'
+
     //test
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
