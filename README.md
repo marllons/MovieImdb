@@ -28,6 +28,5 @@ Abra o app e pesquise por algum usuário. Ao achar, clique no usuário e veja se
 
 Default theme <br>
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/30272949/238058249-8e44e180-4e8d-4a9e-94e4-6806a504c98c.png" width="250">
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/30272949/238058344-724b40f2-01eb-4a61-ae48-d42712b70aa3.png" width="250">
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/30272949/238058399-1de7bc56-62b0-4ce6-b2af-f3af56c7a4d0.png" width="250">
 <img src="https://user-images.githubusercontent.com/30272949/238058475-1db2efc1-6a80-480c-900d-3caac4a556cb.png" width="250">
